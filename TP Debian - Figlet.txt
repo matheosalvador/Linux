@@ -72,3 +72,5 @@ sudo sh -c 'figlet < "The Universal Declaration of Human Rights.txt" > human-rig
 13 ) Arrêtez proprement votre machine fonctionnant sous Debian
 
 sudo shutdown -h nom
+
+Autor: Mathéo Salvador
