@@ -80,6 +80,8 @@ S'y rendre: cd /home
 
 > - Utiliser l'historique de commandes afin d'exécuter à nouveau une commande. la commande est :"history"
 Réexécuter une commande avec son numéro : !puis le numéro de la commande 
+[voir exemple sur console pour le history ](<../us-001/pictures/Capture d'écran 2026-01-21 122057.png>)-
+[voir exemple sur console pour la réexécution de commande via history ](<../us-001/pictures/Capture d'écran 2026-01-21 122327.png>)
 par exemple aprés avoir fait la commande "history" et aprés avoir eu la liste des commandes , si je veux 
 relancer la commande "pwd" qui est au numéro 140 ,je fais
 !140.
