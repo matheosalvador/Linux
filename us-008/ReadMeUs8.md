@@ -30,3 +30,11 @@ Utiliser les guillemets ou l'échappement \ si un nom de fichier contient malgr�
 
 la commande pour créer un répertoire simple et une arborescence complexe est mkdir -p DossierNiveau1/Niveau2/Niveau3/Niveau4.a
 
+
+
+
+[voir exemple sur console](../us-001/pictures/Capture_decran_2026-01-21_120150.png)
+
+
+[voir exemple sur console ](../us-001/pictures/Capture_decran_2026-01-21_115831.png)
+

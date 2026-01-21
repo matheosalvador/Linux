@@ -38,6 +38,7 @@ Peu importe où je me trouve, ce chemin pointe toujours vers le même fichier.
 >exemple: ../java.txt
 
 
+
 > exemple : si je suis dans /home/selmen/Documents
 et que je écris cours/java.txt  le systeme comprend
 /home/selmen/Documents/cours/java.txt
@@ -58,6 +59,7 @@ Exemple :
 /etc/hostname → nom de la machine
 /etc/passwd → infos sur les utilisateurs
 S’y rendre : cd /etc/
+[voir exemple sur console ](<../us-001/pictures/Capture d'écran 2026-01-21 113701.png>)
 
 > - le role de /var/log est  de Contenir  les journaux du système,
 Sert à comprendre les erreurs et événements.
@@ -65,12 +67,14 @@ Exemple :
 syslog → événements généraux
 auth.log → connexions, sudo, sécurité
 S'y rendre : cd /var/log
+[voir exemple sur console ](../us-001/pictures/image.png)
 
 > - le role de /home  est de Contenir les dossiers personnels des utilisateurs,
 Chaque utilisateur a son espace
 Exemple :
 /home/selmen
 S'y rendre: cd /home
+[voir exemple sur console ](<../us-001/pictures/Capture d'écran 2026-01-21 120001.png>)
 
 > - Utiliser l'auto-complétion avec la touche Tab pour éviter les erreurs de frappe.PRATIQUE
 
