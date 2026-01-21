@@ -16,5 +16,5 @@ Le nom de ma Debian (hostname) n'est plus le nom par défaut.
 
 
 > - changer le nom du hostname:
-la commande pour changer le hostname : < sudo hostnamectl set-hostname nouveau_hostname >
+la commande pour changer le hostname : " sudo hostnamectl set-hostname nouveau_hostname "
 le nouveau nom du host est : navi

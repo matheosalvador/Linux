@@ -26,7 +26,7 @@ Utiliser l'historique de commandes afin d'exécuter à nouveau une commande.
 
 # **Resultat :** 
 
-> - pour Identifier son emplacement actuel dans l'arborescence de dossiers la commande est : <pwd>;
+> - pour Identifier son emplacement actuel dans l'arborescence de dossiers la commande est : "pwd";
 
 > - le chemin absolu indique l’emplacement exact et complet d’un fichier ou dossier depuis la racine du système.il commence par / sur linux
 
@@ -43,12 +43,12 @@ et que je écris cours/java.txt  le systeme comprend
 /home/selmen/Documents/cours/java.txt
 
 > - pour Revenir instantanément à son dossier personnel
-la commande est : <cd>
+la commande est : "cd"
 
-> - Se déplacer dans le dossier parent la  commande est :<cd ..>
+> - Se déplacer dans le dossier parent la  commande est :"cd .."
 
 > - Lister les fichiers, cachés ou non. la commande est 
-:<ls -la>
+"ls -la"
 
 
 
@@ -57,8 +57,7 @@ Paramètres des services (réseau, utilisateurs, sudo, etc.)
 Exemple :
 /etc/hostname → nom de la machine
 /etc/passwd → infos sur les utilisateurs
-S’y rendre : cd /etc
-
+S’y rendre : cd /etc/
 
 > - le role de /var/log est  de Contenir  les journaux du système,
 Sert à comprendre les erreurs et événements.
@@ -66,7 +65,6 @@ Exemple :
 syslog → événements généraux
 auth.log → connexions, sudo, sécurité
 S'y rendre : cd /var/log
-
 
 > - le role de /home  est de Contenir les dossiers personnels des utilisateurs,
 Chaque utilisateur a son espace
@@ -76,10 +74,10 @@ S'y rendre: cd /home
 
 > - Utiliser l'auto-complétion avec la touche Tab pour éviter les erreurs de frappe.PRATIQUE
 
-> - Utiliser l'historique de commandes afin d'exécuter à nouveau une commande. la commande est :<history>
+> - Utiliser l'historique de commandes afin d'exécuter à nouveau une commande. la commande est :"history"
 Réexécuter une commande avec son numéro : !puis le numéro de la commande 
-par exemple aprés avoir fait la commande <history> et aprés avoir eu la liste des commandes , si je veux 
-relancer la commande <pwd> qui est au numéro 140 ,je fais
+par exemple aprés avoir fait la commande "history" et aprés avoir eu la liste des commandes , si je veux 
+relancer la commande "pwd" qui est au numéro 140 ,je fais
 !140.
 
 

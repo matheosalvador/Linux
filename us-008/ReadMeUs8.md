@@ -25,3 +25,8 @@ Visualiser une arborescence de dossiers (tree).
 Ne pas utiliser les espaces et les caractères spéciaux/accentués dans les noms de fichiers et de dossiers.
 
 Utiliser les guillemets ou l'échappement \ si un nom de fichier contient malgré tout un espace.
+
+# **Résultat :**
+
+la commande pour créer un répertoire simple et une arborescence complexe est mkdir -p DossierNiveau1/Niveau2/Niveau3/Niveau4.a
+
