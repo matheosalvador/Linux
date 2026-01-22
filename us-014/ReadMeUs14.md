@@ -28,3 +28,28 @@ je veux utiliser les commandes chown et chmod pour m'assurer que les information
 >Un membre du groupe peut modifier ses fichiers mais ne peut pas supprimer ceux des autres membres.
 >
 >Les permissions de /etc/shadow sont vérifiées : seul root peut y accéder.
+
+# **Resultat:**
+
+> pour changer les permissions d’un dossier (ou d’un fichier), on utilise:
+  "sudo chmod permissions chemin_du_dossier"
+
+>du coup ici je fais "sudo chmod 600 /etc/shadow"
+[voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 145135.png>) ,
+ici j ai accordé les permissions de read and write seulement a root    ,personne d autres a accés au fichier  /etc/shadow ,
+[voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 1433010.png>)
+
+> on utilise le même principe pour /opt/partage avec 
+ la commande "sudo chmod 2770 /opt/partage"
+[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 150127.png>),
+  "drwxrws--- 2 root projet_linux 4096 21 janv. 16:00 /opt/partage",
+ ici le "---" 
+ indique bien que les users qui ne font pas partie du groupe et ceux qui ne sont pas root peuvent ni read ou write  .
+
+
+
+
+
+
+
+

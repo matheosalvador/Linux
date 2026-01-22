@@ -29,3 +29,33 @@ mais où les autres n'y ont aucun accès.
 >Un membre du groupe peut modifier ses fichiers mais ne peut pas supprimer ceux des autres membres.
 >
 >Les permissions de /etc/shadow sont vérifiées : seul root peut y accéder.
+
+# **Resultat:**
+
+> d abord créer le le dossier avec "mkdir /opt/partage"
+
+> ensuite  le assosier au  groupe voulu : "sudo chown : projet_linux /opt/partage";
+
+> puis - Donner les permissions dans un groupe :     "sudo  chmod 2770 /opt/partage";
+
+    2 → setgid (héritage du groupe)
+
+    7 → propriétaire (root) : rwx
+
+    7 → groupe (projet_linux) : rwx
+
+    0 → autres :  aucun accès
+
+ 
+    
+    "drwxrws--- 2 root projet_linux 4096 21 janv. 16:00 /opt/partage" explication : 
+
+    d	dossier
+    rwx	root : accès total
+    rws	groupe : accès + setgid
+    ---	autres : aucun accès
+    root	propriétaire
+    projet_linux	groupe
+    le 2 represente le nombre de lien ici c est le parent .. et le dossier lui même .,
+
+>[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 015201.png>)

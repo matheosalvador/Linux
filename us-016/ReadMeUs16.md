@@ -29,3 +29,13 @@ afin de partager des données de manière sécurisée.
 >Un membre du groupe peut modifier ses fichiers mais ne peut pas supprimer ceux des autres membres.
 >
 >Les permissions de /etc/shadow sont vérifiées : seul root peut y accéder.
+
+# **Resultat:**
+
+
+>  Le sticky bit empêche les utilisateurs de supprimer les fichiers dont ils ne sont pas propriétaires, même dans un dossier partagé en écriture dans un groupe  ,la commande est : "sudo chmod +t chemin_dossier",
+
+>[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 154545.png>)
+
+>"drwxrws--T 2 root projet_linux 4096 21 janv. 16:00 /opt/partage"
+ici le T represente le sticky bit
