@@ -65,7 +65,7 @@ syslog → événements généraux
 auth.log → connexions, sudo, sécurité
 S'y rendre : cd /var/log
 >
->**![voir exemple sur console ](../us-001/pictures/image.png)**
+>**![voir exemple sur console ](../us-001/pictures/Capture.png)**
 >
 > - le role de /home  est de Contenir les dossiers personnels des utilisateurs,
 Chaque utilisateur a son espace

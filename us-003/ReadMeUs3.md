@@ -14,6 +14,8 @@ afin de partager nos travaux entre nous et avec le PO
 >
 >Chaque dossier us-NNN contiendra au minimum un document intitulé "README.md". Dans ce fichier, il sera expliqué l'objectif de la story, les informations concernant la réalisation de la story, des traces d'exécution ou de résultats (copies écran par exemple) et des schémas (lorsque cela aide à la compréhension de la solution utilisée).
 >
+# **Resultat:**
+
 >**![Photo du GitHub](<../us-001/pictures/Capture d'écran 2026-01-21 140359.png>)**
 >
 >**![Photo des sous dossiers ainsi que leurs ReadMe](<../us-001/pictures/Capture d'écran 2026-01-21 141053.png>)**

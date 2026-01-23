@@ -12,4 +12,3 @@ afin d'avoir les informations essentielles du sprint à portée de main
 >
 >La version définitive de cette cheat sheet individuelle devra être envoyée à flefevre@esiee-it.fr au plus tard jeudi 17h
 >
->**[Lien vers la Cheat Sheet](<../TP Debian - Figlet (Cheat Sheet).txt>)**

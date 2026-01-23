@@ -29,19 +29,17 @@ je veux créer un script pour automatiser la création d'utilisateurs et leur su
 >
 >Les permissions de /etc/shadow sont vérifiées : seul root peut y accéder.
 
-
 # **Resultat:**
 
 > ici pour créer un script , on fait: " nano nom_fichier" puis  en ajoute dans le script 
 #!/bin/bash pour que l interpréteur soit bash par défaut,
 > voici le script pour  automatiser la création d'utilisateurs et leur suppression:
 ![voir la console](<../us-001/pictures/Capture d'écran 2026-01-22 152255.png>) ,
-
+>
 > exemple de utilisation:
 ![voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 152708.png>) ,
-
+>
 > ici on voit bien que le utilisateur "miao" a bien été ajouter : ![voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 152956.png>) ,
-
+>
 > ici on gére bien les erreurs:
 ![voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 153556.png>)
-

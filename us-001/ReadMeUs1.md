@@ -10,4 +10,6 @@ afin de suivre l'avancée de notre travail et de communiquer avec le PO
 >
 >Le board sera mis à jour régulièrement afin d'être à jour en début de matinée (pour le daily) et en début d'après-midi.
 >
->**[Photo Trello](<pictures/Capture d'écran 2026-01-21 135404.png>)**
+# **Resultat:**
+
+>**![Photo Trello](<pictures/Capture d'écran 2026-01-21 135404.png>)**

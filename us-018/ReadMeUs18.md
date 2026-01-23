@@ -40,6 +40,7 @@ if [ "$EUID" -ne 0 ]; then
         echo "Ce script doit être exécuter en tant que root"
         exit 1
 else
+
 clear
 echo "=========================================="
 echo "     INSTALLATEUR DE LOGICIELS LINUX"
@@ -92,51 +93,49 @@ echo " 35) Quitter"
 echo ""
 read -p "Votre choix : " choix
 
-sudo apt update
-
 case $choix in
-    1) sudo apt install -y git ;;
-    2) sudo apt install -y curl ;;
-    3) sudo apt install -y wget ;;
-    4) sudo apt install -y htop ;;
-    5) sudo apt install -y neofetch ;;
-    6) sudo apt install -y unzip zip ;;
-    7) sudo apt install -y build-essential ;;
+    1) sudo apt install -y git ;
+    2) sudo apt install -y curl ;
+    3) sudo apt install -y wget ;
+    4) sudo apt install -y htop ;
+    5) sudo apt install -y neofetch ;
+    6) sudo apt install -y unzip zip ;
+    7) sudo apt install -y build-essential ;
 
-    8) sudo apt install -y python3 python3-pip ;;
-    9) sudo apt install -y nodejs npm ;;
-   10) sudo apt install -y openjdk-17-jdk ;;
-   11) sudo apt install -y docker.io ;;
-   12) sudo apt install -y docker-compose ;;
-   13) sudo apt install -y gcc g++ ;;
+    8) sudo apt install -y python3 python3-pip ;
+    9) sudo apt install -y nodejs npm ;
+   10) sudo apt install -y openjdk-17-jdk ;
+   11) sudo apt install -y docker.io ;
+   12) sudo apt install -y docker-compose ;
+   13) sudo apt install -y gcc g++ ;
 
-   14) sudo apt install -y apache2 ;;
-   15) sudo apt install -y nginx ;;
-   16) sudo apt install -y php php-cli php-mysql ;;
-   17) sudo apt install -y mysql-server ;;
-   18) sudo apt install -y mariadb-server ;;
-   19) sudo apt install -y composer ;;
-   20) sudo apt install -y phpmyadmin ;;
+   14) sudo apt install -y apache2 ;
+   15) sudo apt install -y nginx ;
+   16) sudo apt install -y php php-cli php-mysql ;
+   17) sudo apt install -y mysql-server ;
+   18) sudo apt install -y mariadb-server ;
+   19) sudo apt install -y composer ;
+   20) sudo apt install -y phpmyadmin ;
 
-   21) sudo apt install -y git-lfs ;;
-   22) sudo apt install -y gimp ;;
-   23) sudo apt install -y inkscape ;;
-   24) sudo apt install -y blender ;;
-   25) sudo apt install -y ffmpeg ;;
+   21) sudo apt install -y git-lfs ;
+   22) sudo apt install -y gimp ;
+   23) sudo apt install -y inkscape ;
+   24) sudo apt install -y blender ;
+   25) sudo apt install -y ffmpeg ;
 
-   26) sudo apt install -y nmap ;;
-   27) sudo apt install -y net-tools ;;
-   28) sudo apt install -y ufw ;;
-   29) sudo apt install -y openssh-server ;;
+   26) sudo apt install -y nmap ;
+   27) sudo apt install -y net-tools ;
+   28) sudo apt install -y ufw ;
+   29) sudo apt install -y openssh-server ;
 
-   30) sudo apt install -y vim ;;
-   31) sudo apt install -y nano ;;
-   32) sudo apt install -y tmux ;;
-   33) sudo apt install -y gnome-tweaks ;;
-   34) sudo apt install -y vlc ;;
+   30) sudo apt install -y vim ;
+   31) sudo apt install -y nano ;
+   32) sudo apt install -y tmux ;
+   33) sudo apt install -y gnome-tweaks ;
+   34) sudo apt install -y vlc ;
 
-   35) echo "Fermeture."; exit 0 ;;
-    *) echo "Choix invalide." ;;
+   35) echo "Fermeture."; exit 0 ;
+    *) echo "Choix invalide." ;
 esac
 
 echo "Installation terminée."
@@ -147,16 +146,16 @@ fi
 >
 >Puis le lancer avec soit **"sudo bash install.sh"** ou **"sudo ./install.sh"**
 >
->**[Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143235.png>)**
+>**![Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143235.png>)**
 >
 >Mettre le numéro de son choix et il installe le logiciels demandé
 >
->**[Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143301.png>)**
+>**![Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143301.png>)**
 >
 >Quitte si le numéro est 35.
 >
->**[Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143316.png>)**
+>**![Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143316.png>)**
 >
 >Si il est lancer sans sudo il affiche ceci 
 >
->**[Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143215.png>)**
+>**![Voir Exemple](<../us-001/pictures/Capture d'écran 2026-01-22 143215.png>)**

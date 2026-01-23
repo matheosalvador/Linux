@@ -32,31 +32,18 @@ afin de partager des données entre membres d'un même groupe.
 
 # **Resultat:**
 
-
 > ici dans la commande pour accorder les permissions on ajoute le "2" : 
 "sudo    chmod 2770 /opt/partage";
 ici 2 → setgid (héritage du groupe)
-
+>
 >Sans setgid, le groupe du fichier est le groupe principal de l’utilisateur.
-
+>
 >Avec setgid, le groupe du fichier est celui du dossier, donc Le setgid garantit que  tous les fichiers créés dans un dossier appartiennent automatiquement au même groupe .
 ![voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 160110.png>),
-
-
+>
 >ici dans la  réponse de la commande "sudo    chmod 2770 /opt/partage" qui est "drwxrws--- 2 root projet_linux 4096 21 janv. 16:00 /opt/partage",
  on voit bien le s qui represente le setgid
-
-
+>
 > ![test](<../us-001/pictures/Capture d'écran 2026-01-23 005715.png>) , pour le test sur cette photo ,on a pris le user lain qui fait partie du group projet_linux et on a créer un fichier qui s appelle test_alice.txt , puis on a fait la commande "ls -l pour voir quelle groupe ce fichier a hériter lors de la création , et ici grâce au setgid 
 on voit bien que le groupe hérité est le projet_linux,
 "-rw-r--r-- 1 lain projet_linux 0 23 janv. 00:56 test_alice.txt" 
-                         ^         
-                        ici
-                         
-
-
-
-
-
-
-
