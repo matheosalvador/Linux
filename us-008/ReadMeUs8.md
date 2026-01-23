@@ -29,7 +29,13 @@ afin de structurer mes données efficacement.
 # **Résultat :**
 
 >la commande pour créer un répertoire simple et une arborescence complexe est mkdir -p DossierNiveau1/Niveau2/Niveau3/Niveau4.a
+>on met du texte à la ligne avec la commande suivante : "echo -n" puis on crée un fichier vide avec "echo -n > file_name"
+>Puis on lit le code du fichier avec la commande suivante : "cat file_name"
+>Puis on verifie les droits d'écriture et de lecture avec la commande suivante : " ls -l
 >
 >**[Voir exemple sur la console](../us-001/pictures/Capture_decran_2026-01-21_120150.png)**
+>
+>On affiche toutes les informations de son pc avec la commande suivante : "ps aux " et on peut les mettre dans un fichier avec "ps aux > file_name"
+>"ps aux | grep bobby" permet d'afficher uniquement les informations contenant bobby, si on rajoute un "| tail -n 2" on affiche uniquement les 2 >dernières lignes, si on le remplace par "| head -n 3" on affiche uniquement les 3 premières lignes et si on remplace par "| head -n 5 | tail -n >1" on affiche uniquement la 5ème ligne.
 >
 >**[Voir exemple sur la console ](../us-001/pictures/Capture_decran_2026-01-21_115831.png)**
