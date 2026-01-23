@@ -44,7 +44,10 @@ ici j ai accordé les permissions de read and write seulement a root    ,personn
 [voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 150127.png>),
   "drwxrws--- 2 root projet_linux 4096 21 janv. 16:00 /opt/partage",
  ici le "---" 
- indique bien que les users qui ne font pas partie du groupe et ceux qui ne sont pas root peuvent ni read ou write  .
+ indique bien que les users qui ne font pas partie du groupe projet_linux peuvent ni read ou write et ni exécuter.
+
+ >[test](<../us-001/pictures/Capture d'écran 2026-01-23 014034.png>) , dans le test je tente de read le fichier ,
+ sauf que comme on a indiquer avec les commandes en haut que seul root doit avoir les droits de read and write  â ce fichier ,donc arice  n 'a pas la permission de read le fichier même si le user fais  partie du groupe projet_linux, car le user est pas root.
 
 
 

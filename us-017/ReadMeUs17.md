@@ -47,6 +47,15 @@ ici 2 → setgid (héritage du groupe)
  on voit bien le s qui represente le setgid
 
 
+> [test](<../us-001/pictures/Capture d'écran 2026-01-23 005715.png>) , pour le test sur cette photo ,on a pris le user lain qui fait partie du group projet_linux et on a créer un fichier qui s appelle test_alice.txt , puis on a fait la commande "ls -l pour voir quelle groupe ce fichier a hériter lors de la création , et ici grâce au setgid 
+on voit bien que le groupe hérité est le projet_linux,
+"-rw-r--r-- 1 lain projet_linux 0 23 janv. 00:56 test_alice.txt" 
+                         ^         
+                        ici
+                         
+
+
+
 
 
 

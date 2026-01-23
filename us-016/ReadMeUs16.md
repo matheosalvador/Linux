@@ -39,3 +39,6 @@ afin de partager des données de manière sécurisée.
 
 >"drwxrws--T 2 root projet_linux 4096 21 janv. 16:00 /opt/partage"
 ici le T represente le sticky bit
+
+>[test](<../us-001/pictures/Capture d'écran 2026-01-23 012939.png>) , ici pour le test , j ai vérifier si le stickybit fonctionne puis j ai créer un fichier qui s appelle fichier_alice.txt avec le user lain , ensuite j ai changé de user de lain a arice , et quand j ai essayer de supprimer le fichier que lain a créer , ce message est apparu "rm: impossible de supprimer 'fichier_alice.txt': Opération non permise"
+car ce n est pas arice qui a créer le fichier,
