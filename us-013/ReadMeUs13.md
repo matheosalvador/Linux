@@ -58,8 +58,8 @@ mais où les autres n'y ont aucun accès.
     projet_linux	groupe
     le 2 represente le nombre de lien ici c est le parent .. et le dossier lui même .,
 
->[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 015201.png>)
+>![voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 015201.png>)
 
->[test](<../us-001/pictures/Capture d'écran 2026-01-23 015206.png>) , dans ce test , j ai créer un fichier texte avec un user(lain) qui appartient au groupe projet_linux , donc on voit bien que les users qui appartiennent aux groupe peuvent bien écrire des fichiers.
+>![test](<../us-001/pictures/Capture d'écran 2026-01-23 015206.png>) , dans ce test , j ai créer un fichier texte avec un user(lain) qui appartient au groupe projet_linux , donc on voit bien que les users qui appartiennent aux groupe peuvent bien écrire des fichiers.
 
->[test](<../us-001/pictures/Capture d'écran 2026-01-23 020210.png>) , dans ce test le user mila qui n est pas root et qu il ne fais pas partie du groupe projet_linux tente d acceder au dossier /opt/partage, sauf que la permission ne lui a pas été accorder car nous avons bloquer tout accés au users qui ne ne font pas partie du groupe projet_linux,
+>![test](<../us-001/pictures/Capture d'écran 2026-01-23 020210.png>) , dans ce test le user mila qui n est pas root et qu il ne fais pas partie du groupe projet_linux tente d acceder au dossier /opt/partage, sauf que la permission ne lui a pas été accorder car nous avons bloquer tout accés au users qui ne ne font pas partie du groupe projet_linux,

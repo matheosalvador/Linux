@@ -36,13 +36,13 @@ groupe commun nommé projet_linux.
 
 
 > créer le mot de passe du nouveau user : "sudo passwd username";
-[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-21 151730.png>)
+![voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-21 151730.png>)
 
 > la commande pour vérifier si les users ont bien été créer : " cat /etc/passwd ";
-[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 140424.png>)
+![voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 140424.png>)
 
 > la  commande pour créer un groupe est : "sudo groupadd group_name";
-[voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 141011.png>)
+![voir sur console ](<../us-001/pictures/Capture d'écran 2026-01-22 141011.png>)
 
 
 > la commande pour ajouter les users a un group:
@@ -50,5 +50,5 @@ groupe commun nommé projet_linux.
 ici, “-a” veut dire append, and “-G” specifie le group lequelle le user doit être ajouter ;
 
 > afficher les membres de un groupe :  "getent group nom_group";
-[voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 141521.png>)
+![voir sur console](<../us-001/pictures/Capture d'écran 2026-01-22 141521.png>)
 

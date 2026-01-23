@@ -30,6 +30,6 @@ afin de structurer mes données efficacement.
 
 >la commande pour créer un répertoire simple et une arborescence complexe est mkdir -p DossierNiveau1/Niveau2/Niveau3/Niveau4.a
 >
->**[Voir exemple sur la console](../us-001/pictures/Capture_decran_2026-01-21_120150.png)**
+>**![Voir exemple sur la console](../us-001/pictures/Capture_decran_2026-01-21_120150.png)**
 >
->**[Voir exemple sur la console ](../us-001/pictures/Capture_decran_2026-01-21_115831.png)**
+>**![Voir exemple sur la console ](../us-001/pictures/Capture_decran_2026-01-21_115831.png)**
